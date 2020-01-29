@@ -1,0 +1,42 @@
+
+/* Первый вариант */
+/* .div{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    text-align: center;
+   
+}
+.div > p{
+    line-height:300px;
+    margin:0;
+    padding: 0;
+} */
+
+
+
+/* 
+Второй вариант */
+/* .div{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    display: table;
+    text-align: center;
+}
+.div > p{
+    display: table-cell;
+    vertical-align: middle;
+} */
+
+
+/* Третий вариант */
+.div{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
